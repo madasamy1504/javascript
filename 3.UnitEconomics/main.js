@@ -1,6 +1,6 @@
 let sellingInp = document.getElementById('sellingPrice'),
     cogsInp = document.getElementById('cogs'),
-    GrassMargOut = document.getElementById('grassMargin'),
+    GrossMargOut = document.getElementById('grassMargin'),
     salesInp = document.getElementById('salesPrice'),
     operationalInp = document.getElementById('operational'),
     NetMarginOut = document.getElementById('netMargin'),
@@ -11,7 +11,7 @@ let sellingInp = document.getElementById('sellingPrice'),
     operationalValue = operationalInp.value;
     function task(){
        let grass = sellingValue-cogsValue;
-       GrassMargOut.value = grass;
+       GrossMargOut.value = grass;
        let netmar = grass-salesValue-operationalValue;
        NetMarginOut.value = netmar;
         

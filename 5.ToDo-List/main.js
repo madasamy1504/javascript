@@ -36,7 +36,7 @@ let inputBox = document.getElementById('inputBox'),
     };
     
     function updateDone(){
-        spanEle.classList.add = ('.done');
+       spanEle.classList.add = ('.done');
        console.log(spanEle); 
     };
     function updateEdit(){

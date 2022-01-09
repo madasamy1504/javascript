@@ -21,3 +21,10 @@ function output() {
   bodyEle.style.backgroundColor = random();
 }
 colorChanger.addEventListener("click", output);
+
+
+
+
+
+
+
