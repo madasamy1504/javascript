@@ -1,7 +1,8 @@
 let inputBox = document.getElementById('inputBox'),
     updateBotton = document.getElementById('submit'),
     addElement = document.getElementById('addElement'),
-    olEle = document.getElementById('olEle');
+    olEle = document.getElementById('olEle'),
+    colorChanger = document.getElementById('btn');
 
    function update(e){
          e.preventDefault();
@@ -33,18 +34,33 @@ let inputBox = document.getElementById('inputBox'),
 
        //console.log(addElement);
 
-    };
+    }
     
     function updateDone(){
        spanEle.classList.add = ('.done');
        console.log(spanEle); 
-    };
+    }
     function updateEdit(){
+       let getInput  = prompt('Enter the task');
+     
+       this.spanEle.innerHTML = getInput;
         
-    };
+    }
     function updateDelete(){
         
-    };
+    }
     
     updateBotton.addEventListener('click',update);
     
+
+
+
+
+
+    function colorChange(){
+     let random =   Math.random();
+     console.log(random);
+
+    }
+
+    colorChanger.addEventListener('click',colorChange);
