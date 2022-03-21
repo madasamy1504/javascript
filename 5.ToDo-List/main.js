@@ -33,6 +33,7 @@ let inputBox = document.getElementById('inputBox'),
 
 
        //console.log(addElement);
+	//console.log(addElement);
 
     }
     
